@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-group :test do
-  gem 'rake'
-end
-
+gem 'rake'
 gem 'rdoc'
+gem 'json'
+gem 'progressbar'
+gem 'haml', '~>3.0.25'
